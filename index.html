@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="sound-red" src="/background-sound/sukuna.mp3"></audio>
+  <audio id="sound-green" src="/background-sound/toji.mp3"></audio>
+  <audio id="sound-yellow" src="/background-sound/megumi.mp3"></audio>
+  <audio id="sound-purple" src="/background-sound/gojo.mp3"></audio>
+
+  <h2 style="color: red;">Mind Jutsu</h2>
+  <h3 style="color: red;">Press any key to start the game</h3>
+  <!-- New start button for mobile/tap -->
+  <button id="start-btn">Tap to Start</button>
+
+  <div class="parent">
+    <div class="line-1">
+      <div class="btn red" id="red"></div>
+      <div class="btn yellow" id="yellow"></div>
+    </div>
+    <div class="line-2">
+      <div class="btn green" id="green"></div>
+      <div class="btn purple" id="purple"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

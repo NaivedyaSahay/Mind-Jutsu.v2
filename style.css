@@ -1,0 +1,55 @@
+
+body{
+text-align: center;
+background-image: url("./Background-images/jjkbackground.jpg");
+background-size: cover;
+background-position: center;
+z-index: -1;
+}
+.parent{
+    display: flex;
+    justify-content:center ;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+        border: 3px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.red{
+    background-color: #d95980;
+    background-image: url(/Background-images/yuji.jpeg);
+    background-size: contain; 
+
+}
+.yellow{
+    background-image: url(/Background-images/megumi.jpeg);
+    background-size: contain; 
+    background-color: #f99b45;
+    background-position: center;
+}
+.purple{
+    background-image: url(/Background-images/gojo.jpeg);
+    background-size: contain;     
+    background-color: #819ff9;
+    background-repeat: no-repeat;
+}
+.green{
+    background-image: url(/Background-images/toji.jpeg);
+    background-size: contain;     
+    background-color: #63aac0;
+}
+
+.flash{
+    background-image: none;
+    background-color: black;
+}
+#start-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
